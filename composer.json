@@ -1,6 +1,6 @@
 {
   "name": "webparking/laravel-minox",
-  "description": "Laravel API helper for Minox eAccounting",
+  "description": "Laravel API helper for Minox",
   "license": "MIT",
   "require": {
     "php": "^7.3",
