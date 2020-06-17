@@ -64,7 +64,7 @@ class Trialbalance extends BaseEntity
         $parts = [];
 
         if ($this->getPeriod()) {
-            $parts['start_period'] = 1;
+            $parts['start_period'] = $this->getPeriod();
             $parts['end_period'] = $this->getPeriod();
         }
 
